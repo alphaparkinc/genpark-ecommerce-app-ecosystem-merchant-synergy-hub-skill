@@ -1,0 +1,38 @@
+{
+  "name": "genpark-ecommerce-app-ecosystem-merchant-synergy-hub-skill",
+  "version": "1.0.0",
+  "description": "GenPark AI Agent Skill - E-commerce software app stack consolidator and multi-app merchant synergy optimizer reducing SaaS bloat and API latency.",
+  "author": "genpark",
+  "category": "saas-optimization",
+  "tags": [
+    "ecommerce-apps",
+    "merchant-tools",
+    "saas-consolidation",
+    "app-stack",
+    "shop-circle"
+  ],
+  "inputs": {
+    "store_domain": {
+      "type": "string"
+    },
+    "active_apps_installed": {
+      "type": "array"
+    }
+  },
+  "outputs": {
+    "audit_id": {
+      "type": "string"
+    },
+    "consolidated_suite_saving_monthly_usd": {
+      "type": "number"
+    },
+    "app_api_overhead_latency_reduction_ms": {
+      "type": "integer"
+    },
+    "all_in_one_unified_dashboard_ready": {
+      "type": "boolean"
+    }
+  },
+  "entrypoint": "client.py",
+  "example": "example_usage.py"
+}
